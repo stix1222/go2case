@@ -5,16 +5,16 @@ import Link from 'next/link'
 
 function Navbar(){
     return (
-        <nav className="navbar navbar-light bg-light navbar-toggle navbar-expand-lg nav-color">
+        <nav className="navbar navbar-light navbar-toggle navbar-expand-lg nav-color">
         <div className="container container-fluid">
-          <a className="navbar-brand case-tech" href="/">
+          <Link className="navbar-brand case-tech" href="/">
               <Image
                 src={Logo}
                 alt="Case Technologies"
                 height={40}
                 width={45}
               />
-          </a>
+          </Link>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>

@@ -85,13 +85,13 @@ color: #e74c3c;
 /* Main introduction */
 .intro {
   font-size: 75px;
+  font-weight: bolder;
   top: 30%;
   left: 20%;
   right: 20%;
   text-align: center;
   color: black;
   min-height: 65vh;
-
 }
 .main-button {
 

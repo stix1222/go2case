@@ -5,7 +5,7 @@ function HomePage() {
     <div className="spacer"></div>
       <h1 className="">Welcome to Case Technologies</h1>
       <hr className="container"/>
-      <h3 className="start-career">Improve your workflow today!</h3>
+      <h3 className="start-career">Where your success is our only objective</h3>
       <div className="spacer"></div>
     </div>
   );
