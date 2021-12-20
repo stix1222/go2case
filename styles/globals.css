@@ -29,16 +29,32 @@ a {
 .spacer2 {
   height: 50px;
 }
+/* About page */
+.main-image {
+  color: white;
+  background-image: url('../images/image1.jpg');
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: brightness(25%);
+}
 
+.main-color {
+  color: whitesmoke;
+}
+.lt-color {
+  color: white;
+  font-size: larger;
+  text-align: left;
+}
 /* Footer settings */ 
 .footer {
   min-height: calc(100% - 405px);
   width: 100%;
-  margin-top: 50px;
   color: whitesmoke;
   background-color: #2d3436;
   text-align: center;
-  margin-bottom: 0;
+  margin-bottom: -100px;
   padding-bottom: -200px;
   position: absolute;
 
@@ -100,6 +116,7 @@ color: #e74c3c;
 /* About page */
 .about {
   text-align: center;
+  padding-top: 5%;
 }
 .about-case {
   max-width: 60%;
