@@ -17,5 +17,17 @@
   "devDependencies": {
     "eslint": "7.32.0",
     "eslint-config-next": "11.1.0"
-  }
+  },
+  "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
+  "main": "next.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stix1222/go2case.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stix1222/go2case/issues"
+  },
+  "homepage": "https://github.com/stix1222/go2case#readme"
 }
