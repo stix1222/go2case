@@ -20,29 +20,85 @@ body {
   opacity: .7;
   height: 100%;
   filter: blur(2px);
-  border-radius: 50px;
+  /*border-radius: 50px;*/
 
 }
+
+.homeStatement {
+  margin-top: 10%;
+  height: 200px;
+  text-align: center;
+  font-size: xx-large;
+}
+
 .Group1 {
+  display:flex;
+
+}
+.Group2 {
   display: flex;
 }
 .leftSideTop {
-  background-image: url('../public/code_image.jpg');
+  background-image: url('../public/code_image.jpg') ;
   width: 50%;
-  /*position: relative;*/
+  clear: left;
   float: left;
-  /*background-repeat: no-repeat;
-  background-size: cover;*/
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*opacity: ;*/
+}
+.leftSideInfo {
+  color: whitesmoke;
+}
+.rightSideInfo {
+  padding-top: 25%;
 }
 .rightSideTop {
-  background-image: url('../public/computer_space.jpg');
+  background-image: url('../public/robot.jpg');
   width: 50%;
+  height: 400px;
   position: relative;
   float: right;
   background-repeat: no-repeat;
   background-size: cover;
 }
-
+.bottomLeftLeft {
+  background-image: url('../public/computer_space.jpg');
+  width: 50%;
+  height: 400px;
+  position: relative;
+  float: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bottomLeftRight {
+  background-image: url('../public/robot.jpg');
+  width: 50%;
+  height: 400px;
+  position: relative;
+  float: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bottomRightLeft {
+  background-image: url('../public/office_space.jpg');
+  width: 50%;
+  height: 400px;
+  position: relative;
+  float: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bottomRightRight {
+  background-image: url('../public/city_view.jpg');
+  width: 50%;
+  height: 400px;
+  position: relative;
+  float: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .leftSide {
   width: 50%;
   position: relative;
