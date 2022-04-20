@@ -23,7 +23,7 @@ function HomePage() {
     </div>
     <div className="Group2">
     <div className="bottomLeftLeft">
-        <h1 className="leftSideInfo">Custom Software Applications</h1>
+        <h1 className="">Custom Software Applications</h1>
       </div>
       <div className="bottomLeftRight">
         <h1 className="rightSideInfo">Serverless Technologies</h1>

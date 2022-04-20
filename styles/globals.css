@@ -50,9 +50,10 @@ body {
 }
 .leftSideInfo {
   color: whitesmoke;
+  text-align: center;
 }
 .rightSideInfo {
-  padding-top: 25%;
+  text-align: center;
 }
 .rightSideTop {
   background-image: url('../public/robot.jpg');
@@ -71,15 +72,17 @@ body {
   float: right;
   background-repeat: no-repeat;
   background-size: cover;
+  color: black;
 }
 .bottomLeftRight {
-  background-image: url('../public/robot.jpg');
+  background-image: url('../public/keyboard.jpg');
   width: 50%;
   height: 400px;
   position: relative;
   float: right;
   background-repeat: no-repeat;
   background-size: cover;
+  color: whitesmoke;
 }
 .bottomRightLeft {
   background-image: url('../public/office_space.jpg');

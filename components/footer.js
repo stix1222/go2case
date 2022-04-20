@@ -9,7 +9,7 @@ function Footer() {
     <div className="spacer"></div>
     <div className="sub-footer container container-fluid">
     <hr />
-      &copy;2021 Case Technologies, LLC
+      &copy;2022 Case Technologies, LLC
     </div>
     </div>
   </div>
